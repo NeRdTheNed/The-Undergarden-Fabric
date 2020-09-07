@@ -10,7 +10,7 @@ import quek.undergarden.item.*;
 
 public class UGItems {
 
-    private static FabricItemSettings defaultSettings = new FabricItemSettings().group(UndergardenMod.group);
+    private static final FabricItemSettings defaultSettings = new FabricItemSettings().group(UndergardenMod.group);
 
     public static final Item catalyst = new CatalystItem(new FabricItemSettings().group(UndergardenMod.group).maxDamage(3));
     public static final Item depthrock_pebble = new PebbleItem(defaultSettings);
@@ -44,7 +44,7 @@ public class UGItems {
         registerItem("utherium_nugget", utherium_nugget);
         registerItem("regalium_ingot", regalium_ingot);
         registerItem("regalium_nugget", regalium_nugget);
-        registerItem("smogstem_torch", smogstem_torch);
+        Registry.register(Registry.ITEM, new Identifier(UndergardenMod.MODID, "smogstem_torch"), smogstem_torch);
         registerItem("ditchbulb", ditchbulb);
         registerItem("brute_tusk", brute_tusk);
     }

@@ -47,6 +47,9 @@ public class UGBlocks {
         registerBlock("tall_deepturf", tall_deepturf);
         registerBlock("tall_shimmerweed", tall_shimmerweed);
         registerBlockNoItem("underbean_bush", underbean_bush);
+
+        registerBlockNoItem("smogstem_torch", smogstem_torch);
+        registerBlockNoItem("smogstem_wall_torch", smogstem_wall_torch);
     }
 
     @Environment(EnvType.CLIENT)
