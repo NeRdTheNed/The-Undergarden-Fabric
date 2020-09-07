@@ -30,6 +30,7 @@ public class UGBlocks {
     public static final Block tall_deepturf = new UGTallPlantBlock(FabricBlockSettings.copyOf(Blocks.TALL_GRASS));
     public static final Block tall_shimmerweed = new UGTallPlantBlock(FabricBlockSettings.copyOf(Blocks.TALL_GRASS).lightLevel(14));
     public static final Block underbean_bush = new UnderbeanBushBlock(FabricBlockSettings.copyOf(Blocks.SWEET_BERRY_BUSH));
+    public static final Block glowing_kelp = new GlowingKelpBlock(FabricBlockSettings.copyOf(Blocks.SEAGRASS));
 
     public static final Block smogstem_torch = new UGTorchBlock(FabricBlockSettings.copyOf(Blocks.TORCH), ParticleTypes.FLAME);
     public static final Block smogstem_wall_torch = new UGWallTorchBlock(FabricBlockSettings.copyOf(Blocks.WALL_TORCH), ParticleTypes.FLAME);
@@ -47,6 +48,7 @@ public class UGBlocks {
         registerBlock("tall_deepturf", tall_deepturf);
         registerBlock("tall_shimmerweed", tall_shimmerweed);
         registerBlockNoItem("underbean_bush", underbean_bush);
+        registerBlock("glowing_kelp", glowing_kelp);
     }
 
     @Environment(EnvType.CLIENT)
@@ -63,6 +65,7 @@ public class UGBlocks {
         registerRenderLayer(tall_shimmerweed, cutout);
         registerRenderLayer(smogstem_torch, cutout);
         registerRenderLayer(smogstem_wall_torch, cutout);
+        registerRenderLayer(glowing_kelp, cutout);
     }
 
     private static void registerBlock(String regName, Block block2Register) {

@@ -29,7 +29,6 @@ public class UGItems {
     public static final Item ditchbulb = new Item(defaultSettings);
     public static final Item brute_tusk = new Item(defaultSettings);
 
-
     public static void registerAll() {
         registerItem("catalyst", catalyst);
         registerItem("depthrock_pebble", depthrock_pebble);
