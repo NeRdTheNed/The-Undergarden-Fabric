@@ -58,6 +58,7 @@ public class UGBlocks {
         registerRenderLayer(deepturf_block, mipped);
         registerRenderLayer(deepturf, cutout);
         registerRenderLayer(shimmerweed, cutout);
+        registerRenderLayer(ashen_deepturf, cutout);
         registerRenderLayer(tall_deepturf, cutout);
         registerRenderLayer(tall_shimmerweed, cutout);
         registerRenderLayer(smogstem_torch, cutout);
