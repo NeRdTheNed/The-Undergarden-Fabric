@@ -1,0 +1,311 @@
+{
+  "ambient.undergarden_ambiance": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "undergarden:ambient/undergarden_ambiance", "stream": false
+      }
+    ]
+  },
+  "ambient.otherside_ambiance": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "undergarden:ambient/otherside_ambiance", "stream": false
+      }
+    ]
+  },
+  "ambient.undergarden_portal_ambient": {
+    "category": "blocks",
+    "subtitle": "subtitles.ambient.undergarden_portal_ambient",
+    "sounds": [
+      "undergarden:ambient/undergarden_portal_ambient"
+    ]
+  },
+  "item.undergarden_portal_activate": {
+    "category": "blocks",
+    "subtitle": "subtitles.item.undergarden_portal_activate",
+    "sounds": [
+      "undergarden:item/undergarden_portal_activate"
+    ]
+  },
+  "music.undergarden_music": {
+    "category": "music",
+    "sounds": [
+      {
+      "name": "undergarden:music/monument", "stream": true
+      },
+      {
+        "name": "undergarden:music/smog", "stream": true
+      },
+      {
+        "name": "undergarden:music/brotherhood", "stream": true
+      },
+      {
+        "name": "undergarden:music/pit_of_shivers", "stream": true
+      },
+      {
+        "name": "undergarden:music/another", "stream": true
+      },
+      {
+        "name": "undergarden:music/wrought", "stream": true
+      }
+    ]
+  },
+  "item.blisterbomb": {
+    "category": "neutral",
+    "subtitle": "subtitles.item.blisterbomb",
+    "sounds": [
+      "undergarden:item/blisterbomb"
+    ]
+  },
+  "entity.dweller_living": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.dweller_living",
+    "sounds": [
+      "undergarden:entity/dweller_living_1",
+      "undergarden:entity/dweller_living_2"
+    ]
+  },
+  "entity.dweller_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.dweller_hurt",
+    "sounds": [
+      "undergarden:entity/dweller_hurt_1",
+      "undergarden:entity/dweller_hurt_2"
+    ]
+  },
+  "entity.dweller_death": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.dweller_death",
+    "sounds": [
+      "undergarden:entity/dweller_death_1"
+    ]
+  },
+  "entity.rotwalker_living": {
+    "category": "hostile",
+    "subtitle": "subtitles.entity.rotwalker_living",
+    "sounds": [
+      "undergarden:entity/rotwalker_living_1",
+      "undergarden:entity/rotwalker_living_2",
+      "undergarden:entity/rotwalker_living_3"
+    ]
+  },
+  "entity.rotwalker_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.entity.rotwalker_hurt",
+    "sounds": [
+      "undergarden:entity/rotwalker_hurt_1",
+      "undergarden:entity/rotwalker_hurt_2",
+      "undergarden:entity/rotwalker_hurt_3"
+    ]
+  },
+  "entity.rotwalker_death": {
+    "category": "hostile",
+    "subtitle": "subtitles.entity.rotwalker_death",
+    "sounds": [
+      "undergarden:entity/rotwalker_death"
+    ]
+  },
+  "entity.rotbeast_living": {
+    "category": "hostile",
+    "subtitle": "subtitles.entity.rotbeast_living",
+    "sounds": [
+      "undergarden:entity/rotbeast_living_1",
+      "undergarden:entity/rotbeast_living_2",
+      "undergarden:entity/rotbeast_living_3"
+    ]
+  },
+  "entity.rotbeast_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.entity.rotbeast_hurt",
+    "sounds": [
+      "undergarden:entity/rotbeast_hurt_1",
+      "undergarden:entity/rotbeast_hurt_2",
+      "undergarden:entity/rotbeast_hurt_3"
+    ]
+  },
+  "entity.rotbeast_death": {
+    "category": "hostile",
+    "subtitle": "subtitles.entity.rotbeast_death",
+    "sounds": [
+      "undergarden:entity/rotbeast_death"
+    ]
+  },
+  "entity.brute_living": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.brute_living",
+    "sounds": [
+      "undergarden:entity/brute_living_1",
+      "undergarden:entity/brute_living_2",
+      "undergarden:entity/brute_living_3",
+      "undergarden:entity/brute_living_4"
+    ]
+  },
+  "entity.brute_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.brute_hurt",
+    "sounds": [
+      "undergarden:entity/brute_hurt_1",
+      "undergarden:entity/brute_hurt_2"
+    ]
+  },
+  "entity.brute_death": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.brute_death",
+    "sounds": [
+      "undergarden:entity/brute_death"
+    ]
+  },
+  "entity.brute_angry": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.brute_angry",
+    "sounds": [
+      "undergarden:entity/brute_aggro"
+    ]
+  },
+  "entity.gloomper_living": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.gloomper_living",
+    "sounds": [
+      "undergarden:entity/gloomper_living_1",
+      "undergarden:entity/gloomper_living_2"
+    ]
+  },
+  "entity.gloomper_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.gloomper_hurt",
+    "sounds": [
+      "undergarden:entity/gloomper_hurt_1",
+      "undergarden:entity/gloomper_hurt_2"
+    ]
+  },
+  "entity.gloomper_death": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.gloomper_death",
+    "sounds": [
+      "undergarden:entity/gloomper_death"
+    ]
+  },
+  "entity.stoneborn_step": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.stoneborn_step",
+    "sounds": [
+      "undergarden:entity/stoneborn_step_1",
+      "undergarden:entity/stoneborn_step_2"
+    ]
+  },
+  "entity.stoneborn_speaking": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.stoneborn_speaking",
+    "sounds": [
+      "undergarden:entity/stoneborn_speaking_1",
+      "undergarden:entity/stoneborn_speaking_2",
+      "undergarden:entity/stoneborn_speaking_3",
+      "undergarden:entity/stoneborn_speaking_4"
+    ]
+  },
+  "entity.stoneborn_pleased": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.stoneborn_pleased",
+    "sounds": [
+      "undergarden:entity/stoneborn_pleased_1",
+      "undergarden:entity/stoneborn_pleased_2",
+      "undergarden:entity/stoneborn_pleased_3",
+      "undergarden:entity/stoneborn_chuckle_1",
+      "undergarden:entity/stoneborn_chuckle_2"
+    ]
+  },
+  "entity.stoneborn_awe": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.stoneborn_awe",
+    "sounds": [
+      "undergarden:entity/stoneborn_awe_1",
+      "undergarden:entity/stoneborn_awe_2",
+      "undergarden:entity/stoneborn_awe_3"
+    ]
+  },
+  "entity.stoneborn_chuckle": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.stoneborn_chuckle",
+    "sounds": [
+      "undergarden:entity/stoneborn_chuckle_1",
+      "undergarden:entity/stoneborn_chuckle_2"
+    ]
+  },
+  "entity.stoneborn_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.stoneborn_hurt",
+    "sounds": [
+      "undergarden:entity/stoneborn_hurt_1",
+      "undergarden:entity/stoneborn_hurt_2"
+    ]
+  },
+  "entity.stoneborn_angry": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.stoneborn_angry",
+    "sounds": [
+      "undergarden:entity/stoneborn_angry_1",
+      "undergarden:entity/stoneborn_angry_2",
+      "undergarden:entity/stoneborn_growl_1",
+      "undergarden:entity/stoneborn_growl_2"
+    ]
+  },
+  "entity.stoneborn_growl": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.stoneborn_growl",
+    "sounds": [
+      "undergarden:entity/stoneborn_growl_1",
+      "undergarden:entity/stoneborn_growl_2"
+    ]
+  },
+  "entity.stoneborn_confused": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.stoneborn_confused",
+    "sounds": [
+      "undergarden:entity/stoneborn_confused_1",
+      "undergarden:entity/stoneborn_confused_2",
+      "undergarden:entity/stoneborn_confused_3",
+      "undergarden:entity/stoneborn_growl_1",
+      "undergarden:entity/stoneborn_growl_2"
+    ]
+  },
+  "entity.stoneborn_chant": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.stoneborn_chant",
+    "sounds": [
+      "undergarden:entity/stoneborn_chant"
+    ]
+  },
+  "entity.stoneborn_death": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.stoneborn_death",
+    "sounds": [
+      "undergarden:entity/stoneborn_death"
+    ]
+  },
+  "entity.rotling_living": {
+    "category": "hostile",
+    "subtitle": "subtitles.entity.rotling_living",
+    "sounds": [
+      "undergarden:entity/rotling_living_1",
+      "undergarden:entity/rotling_living_2",
+      "undergarden:entity/rotling_living_3"
+    ]
+  },
+  "entity.rotling_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.entity.rotling_hurt",
+    "sounds": [
+      "undergarden:entity/rotling_hurt_1",
+      "undergarden:entity/rotling_hurt_2"
+    ]
+  },
+  "entity.rotling_death": {
+    "category": "hostile",
+    "subtitle": "subtitles.entity.rotling_death",
+    "sounds": [
+      "undergarden:entity/rotling_death"
+    ]
+  }
+}

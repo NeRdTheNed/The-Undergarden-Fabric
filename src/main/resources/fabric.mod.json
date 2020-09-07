@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "undergarden",
+  "version": "${version}",
+  "name": "Undergarden",
+  "description": "Deep underground, a forgotten land awaits.",
+  "authors": [
+    "quek"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "quek.undergarden.client.UndergardenClient"
+    ],
+    "main": [
+      "quek.undergarden.UndergardenMod"
+    ]
+  },
+  "mixins": [
+    "undergarden.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.3+build.207",
+    "fabric": "*",
+    "minecraft": "1.16.2"
+  }
+}

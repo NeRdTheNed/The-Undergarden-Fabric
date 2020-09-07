@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "undergarden:deepturf_block"
+    },
+    "title": {
+      "translate": "advancement.undergarden.title"
+    },
+    "description": {
+      "translate": "advancement.undergarden.desc"
+    },
+    "background": "undergarden:textures/block/depthrock_bricks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "criteria": {
+    "enter_undergarden": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "undergarden:undergarden",
+        "from": "minecraft:overworld"
+      }
+    }
+  }
+}
