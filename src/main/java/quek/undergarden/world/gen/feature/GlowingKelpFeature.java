@@ -31,16 +31,16 @@ public class GlowingKelpFeature extends Feature<DefaultFeatureConfig> {
                 int k = 1 + random.nextInt(10);
 
                 for(int l = 0; l <= k; ++l) {
-                    if (world.getBlockState(blockpos).getBlock() == Blocks.WATER && world.getBlockState(blockpos.up()).getBlock() == Blocks.WATER && kelp_top.canPlaceAt(world, blockpos)) {
+                    if (world.getBlockState(blockpos).getBlock() == Blocks.WATER && world.getBlockState(blockpos.up()).getBlock() == Blocks.WATER && kelp.canPlaceAt(world, blockpos)) {
                         if (l == k) {
                             world.setBlockState(blockpos, kelp_top.with(GlowingKelpTopBlock.AGE, random.nextInt(4) + 20), 2);
                             ++i;
                         } else {
-                            world.setBlockState(blockpos, kelp_top, 2);
+                            world.setBlockState(blockpos, kelp, 2);
                         }
                     } else if (l > 0) {
                         BlockPos blockpos1 = blockpos.down();
-                        if (kelp.canPlaceAt(world, blockpos1) && world.getBlockState(blockpos1.down()).getBlock() != UGBlocks.glowing_kelp) {
+                        if (kelp_top.canPlaceAt(world, blockpos1) && world.getBlockState(blockpos1.down()).getBlock() != UGBlocks.glowing_kelp_top) {
                             world.setBlockState(blockpos1, kelp_top.with(GlowingKelpTopBlock.AGE, random.nextInt(4) + 20), 2);
                             ++i;
                         }
