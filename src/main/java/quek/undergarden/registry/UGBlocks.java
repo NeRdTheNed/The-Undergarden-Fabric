@@ -286,8 +286,33 @@ public class UGBlocks {
         registerRenderLayer(tall_shimmerweed, cutout);
         registerRenderLayer(smogstem_sapling, cutout);
         registerRenderLayer(wigglewood_sapling, cutout);
+        registerRenderLayer(gronglet, cutout);
+        registerRenderLayer(smogstem_door, cutout);
+        registerRenderLayer(smogstem_trapdoor, cutout);
+        registerRenderLayer(wigglewood_door, cutout);
+        registerRenderLayer(wigglewood_trapdoor, cutout);
+        registerRenderLayer(grongle_door, cutout);
+        registerRenderLayer(grongle_trapdoor, cutout);
+        registerRenderLayer(gloomgourd_stem, cutout);
+        registerRenderLayer(gloomgourd_stem_attached, cutout);
+        registerRenderLayer(underbean_bush, cutout);
+        registerRenderLayer(blisterberry_bush, cutout);
+        registerRenderLayer(indigo_mushroom, cutout);
+        registerRenderLayer(veil_mushroom, cutout);
+        registerRenderLayer(ink_mushroom, cutout);
+        registerRenderLayer(blood_mushroom, cutout);
+        registerRenderLayer(ditchbulb_plant, cutout);
+        registerRenderLayer(glowing_kelp, cutout);
+        registerRenderLayer(glowing_kelp_top, cutout);
+        registerRenderLayer(glowing_seagrass, cutout);
+        registerRenderLayer(droopvine, cutout);
+        registerRenderLayer(droopvine_top, cutout);
+        registerRenderLayer(goo, translucent);
         registerRenderLayer(smogstem_torch, cutout);
         registerRenderLayer(smogstem_wall_torch, cutout);
+        registerRenderLayer(shard_torch, cutout);
+        registerRenderLayer(shard_wall_torch, cutout);
+        registerRenderLayer(virulent_mix, translucent);
     }
 
     private static void registerBlock(String regName, Block block2Register) {
