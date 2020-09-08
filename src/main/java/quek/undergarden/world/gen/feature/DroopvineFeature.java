@@ -11,6 +11,7 @@ import net.minecraft.world.WorldAccess;
 import net.minecraft.world.gen.chunk.ChunkGenerator;
 import net.minecraft.world.gen.feature.DefaultFeatureConfig;
 import net.minecraft.world.gen.feature.Feature;
+import quek.undergarden.block.DroopvineBlock;
 import quek.undergarden.registry.UGBlocks;
 
 import java.util.Random;
@@ -68,7 +69,7 @@ public class DroopvineFeature extends Feature<DefaultFeatureConfig> {
                     break;
                 }
 
-                world.setBlockState(pos, UGBlocks.droopvine.getDefaultState(), 2);
+                world.setBlockState(pos, UGBlocks.droopvine.getDefaultState().with(DroopvineBlock.GLOWY, DroopvineBlock.randomTorF()), 2);
             }
 
             pos.move(Direction.DOWN);
