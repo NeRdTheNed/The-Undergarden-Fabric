@@ -131,13 +131,13 @@ public class UGTreeFeature extends Feature<TreeFeatureConfig> {
                 List<BlockPos> list2 = Lists.newArrayList(set2);
                 list.sort(Comparator.comparingInt(Vec3i::getY));
                 list2.sort(Comparator.comparingInt(Vec3i::getY));
-                treeFeatureConfig.decorators.forEach((decorator) -> {
-                    decorator.generate(structureWorldAccess, random, list, list2, set3, blockBox);
-                });
+                treeFeatureConfig.decorators.forEach((decorator) -> decorator.generate(structureWorldAccess, random, list, list2, set3, blockBox));
             }
 
             VoxelSet voxelSet = this.placeLogsAndLeaves(structureWorldAccess, blockBox, set, set3);
             Structure.updateCorner(structureWorldAccess, 3, voxelSet, blockBox.minX, blockBox.minY, blockBox.minZ);
+
+            structureWorldAccess.setBlockState(new BlockPos(blockPos.getX(), blockPos.getY() - 1, blockPos.getZ()), UGBlocks.deepsoil.getDefaultState(), 0);
             return true;
         } else {
             return false;
@@ -185,6 +185,7 @@ public class UGTreeFeature extends Feature<TreeFeatureConfig> {
                         }
                     }
                 }
+
             }
         }
 
