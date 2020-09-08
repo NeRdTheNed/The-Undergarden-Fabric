@@ -7,7 +7,10 @@
   "authors": [
     "quek"
   ],
-  "contact": {},
+  "contact": {
+    "sources": "https://github.com/quek04/The-Undergarden-Fabric/",
+    "issues": "https://github.com/quek04/The-Undergarden-Fabric/issues"
+  },
   "license": "MIT",
   "icon": "logo.png",
   "environment": "*",
