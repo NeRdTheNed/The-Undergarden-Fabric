@@ -8,7 +8,7 @@ import quek.undergarden.registry.UGBlocks;
 
 public class UGPlantBlock extends PlantBlock {
 
-    protected UGPlantBlock(Settings settings) {
+    public UGPlantBlock(Settings settings) {
         super(settings);
     }
 

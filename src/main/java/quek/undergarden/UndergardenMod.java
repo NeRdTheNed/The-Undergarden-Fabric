@@ -15,6 +15,9 @@ public class UndergardenMod implements ModInitializer {
     public void onInitialize() {
         UGItems.registerAll();
         UGBlocks.registerAll();
+        UGFeatures.registerAll();
+        UGBlockEntities.registerAll();
+        UGFluids.registerAll();
     }
 
     public static final ItemGroup group = FabricItemGroupBuilder.build(new Identifier(MODID, "undergarden_group"), () -> new ItemStack(UGBlocks.deepturf));

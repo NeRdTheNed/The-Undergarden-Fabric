@@ -25,7 +25,7 @@ public class UGFarmlandBlock extends Block {
     public static final IntProperty MOISTURE = Properties.MOISTURE;
     protected static final VoxelShape SHAPE = Block.createCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 15.0D, 16.0D);;
 
-    protected UGFarmlandBlock(AbstractBlock.Settings settings) {
+    public UGFarmlandBlock(AbstractBlock.Settings settings) {
         super(settings);
         this.setDefaultState(this.stateManager.getDefaultState().with(MOISTURE, 0));
     }

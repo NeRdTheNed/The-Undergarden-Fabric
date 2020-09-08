@@ -26,8 +26,11 @@ public class UGItems {
     public static final Item regalium_ingot = new Item(new FabricItemSettings().group(UndergardenMod.group).rarity(Rarity.UNCOMMON));
     public static final Item regalium_nugget = new Item(new FabricItemSettings().group(UndergardenMod.group).rarity(Rarity.UNCOMMON));
     public static final Item smogstem_torch = new WallStandingBlockItem(UGBlocks.smogstem_torch, UGBlocks.smogstem_wall_torch, defaultSettings);
+    public static final Item shard_torch = new WallStandingBlockItem(UGBlocks.shard_torch, UGBlocks.shard_wall_torch, defaultSettings);
     public static final Item ditchbulb = new Item(defaultSettings);
     public static final Item brute_tusk = new Item(defaultSettings);
+    public static final Item gloomgourd_seeds = new AliasedBlockItem(UGBlocks.gloomgourd_stem, defaultSettings);
+    public static final Item glowing_kelp = new BlockItem(UGBlocks.glowing_kelp_top, defaultSettings);
 
     public static void registerAll() {
         registerItem("catalyst", catalyst);
@@ -43,9 +46,12 @@ public class UGItems {
         registerItem("utherium_nugget", utherium_nugget);
         registerItem("regalium_ingot", regalium_ingot);
         registerItem("regalium_nugget", regalium_nugget);
-        Registry.register(Registry.ITEM, new Identifier(UndergardenMod.MODID, "smogstem_torch"), smogstem_torch);
+        registerItem("smogstem_torch", smogstem_torch);
+        registerItem("shard_torch", shard_torch);
         registerItem("ditchbulb", ditchbulb);
         registerItem("brute_tusk", brute_tusk);
+        registerItem("gloomgourd_seeds", gloomgourd_seeds);
+        registerItem("glowing_kelp", glowing_kelp);
     }
 
     private static void registerItem(String regName, Item item2Register) {
